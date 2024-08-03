@@ -1,0 +1,344 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* header and navbar section starts here..... */
+.header-section {
+    background-color: rgba(252, 206, 214, 0.288);
+    padding: 50px 0px;
+}
+
+.navbar-container {
+    width: 90%;
+    margin: 0px auto 40px auto;
+    padding: 20px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    width: 30%;
+    /* border: 2px solid black; */
+}
+
+.navbar-links {}
+
+.navbar-brand img {
+    width: 100%;
+    height: 7100%;
+}
+
+.navbar-links ul {
+    display: flex;
+    justify-content: end;
+
+}
+
+.navbar-links ul>li {
+    list-style: none;
+
+
+}
+
+.navbar-container ul li a {
+    margin-right: 20px;
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: black;
+}
+
+#hamburger {
+    display: none;
+}
+
+/* header and navbar section ends here..... */
+
+/* banner section starts here.......... */
+.banner-container {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-content {
+    width: 45%;
+    line-height: 40px;
+
+}
+
+.banner-title {
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    line-height: 70px;
+}
+
+.banner-describtion {
+    line-height: 20px;
+    margin: 20px 0;
+}
+
+.btn-primary {
+    width: 170px;
+    height: 50px;
+    background-color: #A4BC46;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-primary img {
+    width: 30px;
+    height: 30px;
+}
+
+.banner-img img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* banner section ends here.......... */
+
+/* main and section starts here............... */
+main section {
+    width: 90%;
+    margin: 70px auto;
+}
+
+/* main and section ends here............... */
+
+/* woman card section starts here............. */
+.card-wrapper {
+    display: flex;
+    gap: 30px;
+
+}
+
+.woman-card-container {
+    width: 33.33%;
+    box-shadow: 0px 0px 2px 0.5px rgba(117, 112, 112, 0.39);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.section-title h1 {
+    font-size: 3rem;
+    margin-bottom: 30px;
+}
+
+.price-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card-price {
+    font-size: 3rem;
+    font-weight: 700;
+    color: rgb(235, 201, 11);
+    margin-right: 10px;
+}
+
+.img-container {
+    padding: 30px 70px;
+    background-color: rgba(187, 184, 184, 0.411);
+    border-radius: 10px;
+}
+
+.woman-img {
+    width: 100%;
+    height: 100%;
+
+}
+
+/* woman section ends here............. */
+
+/* man section starts here............. */
+.man-card-container {
+    width: 33.33%;
+    box-shadow: 0px 0px 2px 0.5px rgba(117, 112, 112, 0.39);
+    border-radius: 20px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.man-img {
+    width: 100%;
+    height: 100%;
+}
+
+/* man section ends here............. */
+
+/* shopping section starts here........... */
+
+.shopping-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 150px;
+}
+.shopping-card-container, .shopping-lotty{
+    width: 46%;
+}
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0px 0px 15px 0.54px rgba(233, 231, 229, 0.527);
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.card-img{
+    width: 15%;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+}
+.card-title{
+    margin: 15px 0;
+}
+
+.shopping-lotty img{
+    width: 100%;
+    height: 80%;
+}
+/* shopping section ends here........... */
+
+/* footer section starts here......... */
+.footer-section{
+    height: 400px;
+    background-color: rgba(252, 206, 214, 0.288);
+    padding: 40px 0px;
+    color: rgba(100, 94, 94, 0.918);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-container{
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    font-size: 1;
+}
+.footer-1, .footer-2, .footer-3{
+    padding: 30px;
+    width: 33.33%;
+    box-shadow: 0px 0px 10px 2.5px rgba(92, 23, 23, 0.705);
+    border-radius: 10px;
+}
+.heading{
+    margin-bottom: 15px;
+    color: black
+}
+/* footer section ends here......... */
+
+@media screen and (max-width:576px) {
+
+    /* navbar section starts here...... */
+    .navbar-links {
+        display: none;
+    }
+
+    .navbar-brand {
+        width: 80%;
+    }
+
+    #hamburger {
+        display: block;
+        font-size: 1.5rem;
+        font-weight: 600;
+    }
+
+    /* navbar section ends here...... */
+
+    /* banner section responsive starts here....... */
+    .banner-container {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner-content,
+    .banner-img {
+        width: 100%;
+    }
+
+    .banner-title {
+        font-size: 2.5rem;
+        line-height: 60px;
+    }
+
+    /* banner section responsive ends here....... */
+    /* woman card section responsive starts here.......... */
+    .card-wrapper {
+        flex-direction: column;
+    }
+
+    .woman-card-container {
+        width: 100%;
+    }
+
+    /* woman card section responsive ends here.......... */
+
+    /* man card section responsive starts here.......... */
+    .card-wrapper {
+        flex-direction: column;
+    }
+
+    .man-card-container {
+        width: 100%;
+    }
+
+    /* man card section responsive ends here.......... */
+
+    /* shopping section responsive starts here.......... */
+    .shopping-container{
+        flex-direction: column-reverse;
+    }
+
+    .shopping-card-container, .shopping-lotty{
+        width: 100%;
+    }
+    /* shopping section responsive ends here.......... */
+
+    /* footer section responsive starts here......... */
+    .footer-section{
+        height: 700px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+
+    .footer-1, .footer-2, .footer-3{
+        padding: 20px;
+        width: 100%;
+    }
+    /* footer section responsive ends here......... */
+}
